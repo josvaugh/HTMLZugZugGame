@@ -1,0 +1,83 @@
+*{
+	margin:0 0 6px;
+}
+header{
+	text-align:center;
+	color:black;
+	padding:20px 150px;
+}
+body {
+	background-image: url("art/parchment.jpg");
+	background-color: #000000; <!-- Black -->	
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+body p {
+	padding-left: 3em;
+}
+
+p{
+	font-family: MedievalSharp;
+	width: 100%;
+	font-size: 26px;
+	color: #8D0000;
+	line-height: 40px;
+}
+
+
+li, li a{						/* Define the formatting for the links to the labs */
+	font-family: MedievalSharp;
+	list-style: none;
+	background-color: #eae459;
+	text-align: center;
+	font-size: 26px;
+	color: black;
+	border-radius: 2px;
+	padding: 2px;
+}
+
+
+	
+h1{
+	font-family: MedievalSharp;
+	width: 100%;
+	text-align: center;
+	color: #8D0000;
+	line-height: 40px;
+
+	
+h2{
+	font-family: MedievalSharp;
+	width: 100%;
+	color: #8D0000;
+	line-height: 40px;
+}
+
+a{
+	font-size: 26px;
+	color: #1E6E68;
+	line-height: 30px;
+	text-align: center;
+}
+
+#Choices{			/* Define the formatting for the <div id="assignments"> box */
+	width: 750px;
+	margin: 0 auto;
+	box-shadow: 0 2px 15px #EEE;
+	min-height: 300px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: white;
+}
+#Choices ul {
+	float:left;
+	width: 300px;
+}
+
+hr{						
+	margin: 10px 0;
+	width: 100%;
+	color: #000000
+	size: 600;
+	float: left;
+}
